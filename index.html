@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Page Navigation</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <nav>
+        <div class="container nav-content">
+          <button type="button" class="tab home active" data-tab="home">
+            <div class="tab-content">
+              <i class="fa-solid fa-house" aria-hidden="true" title="home"></i>
+              <span class="tab-text">home</span>
+            </div>
+          </button>
+          <button type="button" class="tab about" data-tab="about">
+            <div class="tab-content">
+              <i class="fa-solid fa-circle-info" aria-hidden="true" title="about"></i>
+              <span class="tab-text">about</span>
+            </div>
+          </button>
+          <button type="button" class="tab projects" data-tab="projects">
+            <div class="tab-content">
+              <i class="fa-solid fa-diagram-project" aria-hidden="true" title="projects"></i>
+              <span class="tab-text">projects</span>
+            </div>
+          </button>
+          <button type="button" class="tab blog" data-tab="blog">
+            <div class="tab-content">
+              <i class="fa-solid fa-blog" aria-hidden="true" title="blog"></i>
+              <span class="tab-text">blog</span>
+            </div>
+          </button>
+          <button type="button" class="tab contact" data-tab="contact">
+            <div class="tab-content">
+              <i class="fa-solid fa-at" aria-hidden="true" title="contact"></i>
+              <span class="tab-text">contact</span>
+            </div>
+          </button>
+        </div>
+      </nav>
+      <main class="main">
+        <div class="container">
+          <div class="pages">
+            <section class="page home active-page" data-page="home">
+              <h1 class="page-heading">home page</h1>
+              <div class="page-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem!
+                  Voluptatem laudantium perspiciatis earum perferendis culpa et, dolorum
+                  exercitationem ut reprehenderit necessitatibus at dolorem repellendus.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem!
+                  Voluptatem laudantium perspiciatis earum perferendis culpa et, dolorum
+                  exercitationem ut reprehenderit necessitatibus at dolorem repellendus.
+                </p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum illo optio
+                  eligendi? Ex odio, praesentium magni blanditiis culpa dolorem reprehenderit! Sit
+                  reprehenderit sint praesentium in repellat tempore eligendi at numquam repellendus
+                  sunt, sapiente laborum cum libero nisi assumenda nemo necessitatibus! Reiciendis
+                  eligendi impedit facilis voluptatum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus sequi atque
+                  harum consequuntur, eaque excepturi!
+                </p>
+              </div>
+            </section>
+            <section class="page about" data-page="about">
+              <h1 class="page-heading">about page</h1>
+              <div class="page-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem!
+                  Voluptatem laudantium perspiciatis earum perferendis culpa et, dolorum
+                  exercitationem ut reprehenderit necessitatibus at dolorem repellendus.
+                </p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum illo optio
+                  eligendi? Ex odio, praesentium magni blanditiis culpa dolorem reprehenderit! Sit
+                  reprehenderit sint praesentium in repellat tempore eligendi at numquam repellendus
+                  sunt, sapiente laborum cum libero nisi assumenda nemo necessitatibus! Reiciendis
+                  eligendi impedit facilis voluptatum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus sequi atque
+                  harum consequuntur, eaque excepturi!
+                </p>
+              </div>
+            </section>
+            <section class="page projects" data-page="projects">
+              <h1 class="page-heading">projects page</h1>
+              <div class="page-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem!
+                  Voluptatem laudantium perspiciatis earum perferendis culpa et, dolorum
+                  exercitationem ut reprehenderit necessitatibus at dolorem repellendus.
+                </p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum illo optio
+                  eligendi? Ex odio, praesentium magni blanditiis culpa dolorem reprehenderit! Sit
+                  reprehenderit sint praesentium in repellat tempore eligendi at numquam repellendus
+                  sunt, sapiente laborum cum libero nisi assumenda nemo necessitatibus! Reiciendis
+                  eligendi impedit facilis voluptatum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus sequi atque
+                  harum consequuntur, eaque excepturi!
+                </p>
+              </div>
+            </section>
+            <section class="page blog" data-page="blog">
+              <h1 class="page-heading">blog page</h1>
+              <div class="page-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem!
+                  Voluptatem laudantium perspiciatis earum perferendis culpa et, dolorum
+                  exercitationem ut reprehenderit necessitatibus at dolorem repellendus.
+                </p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum illo optio
+                  eligendi? Ex odio, praesentium magni blanditiis culpa dolorem reprehenderit! Sit
+                  reprehenderit sint praesentium in repellat tempore eligendi at numquam repellendus
+                  sunt, sapiente laborum cum libero nisi assumenda nemo necessitatibus! Reiciendis
+                  eligendi impedit facilis voluptatum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus sequi atque
+                  harum consequuntur, eaque excepturi!
+                </p>
+              </div>
+            </section>
+            <section class="page contact" data-page="contact">
+              <h1 class="page-heading">contact page</h1>
+              <div class="page-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem!
+                  Voluptatem laudantium perspiciatis earum perferendis culpa et, dolorum
+                  exercitationem ut reprehenderit necessitatibus at dolorem repellendus.
+                </p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum illo optio
+                  eligendi? Ex odio, praesentium magni blanditiis culpa dolorem reprehenderit! Sit
+                  reprehenderit sint praesentium in repellat tempore eligendi at numquam repellendus
+                  sunt, sapiente laborum cum libero nisi assumenda nemo necessitatibus! Reiciendis
+                  eligendi impedit facilis voluptatum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus sequi atque
+                  harum consequuntur, eaque excepturi!
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container footer-content">
+          <nav class="social-nav">
+            <a href="#" class="footer-link" aria-label="facebook"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a href="#" class="footer-link" aria-label="twitter"
+              ><i class="fa-brands fa-square-twitter"></i
+            ></a>
+            <a href="#" class="footer-link" aria-label="instagram"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a href="#" class="footer-link" aria-label="linkedin"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </nav>
+          <nav class="footer-nav">
+            <a href="#" class="footer-link">home</a>
+            <a href="#" class="footer-link">about</a><a href="#" class="footer-link">projects</a>
+            <a href="#" class="footer-link">blog</a>
+            <a href="#" class="footer-link">contact</a>
+          </nav>
+          <nav class="footer-nav">
+            <a href="#" class="footer-link">privacy Policy</a>
+            <a href="#" class="footer-link">terms of use</a>
+          </nav>
+          <p class="copyright">
+            &copy; <span id="year">year</span> Naima Chaouche | all rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
